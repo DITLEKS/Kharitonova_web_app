@@ -37,7 +37,7 @@
         header("Location: welcome.php");
     }
 
-    $link = mysqli_connect('127.0.0.1', 'root', 'Test123', 'new');
+    $link = mysqli_connect('127.0.0.1', 'root', 'eve@123', 'new');
 
     if (isset($_POST['submit'])) {
         $email = $_POST['email'];

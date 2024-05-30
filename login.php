@@ -50,7 +50,7 @@
 
         if (mysqli_num_rows($result) == 1) {
             setcookie("User", $username, time()+7200);
-            header('Location: profile.php');
+            header('Location: welcome.php');
           } else {
             echo "Неправильное имя или пароль";
           }
